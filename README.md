@@ -12,7 +12,7 @@ Supports operations workflows for vendor payment validation or cost analytics in
 - Sample invoice: ```sample_bill.pdf```
 
 ### Usage Steps
-1. Extract Raw Text: get_pdf_text() function reads PDF pages, cleans artifacts (commas, non-breaking spaces, extra whitespace), and concatenates into a single string.
+1. Extract Raw Text: ```get_pdf_text()``` function reads PDF pages, cleans artifacts (commas, non-breaking spaces, extra whitespace), and concatenates into a single string.
 2. Apply Regular Expressions: Five targeted regex patterns capture:
 ```python
 account_no = r'customer reference number which is ([0-9]+\s[0-9]+\s[0-9]+)'
