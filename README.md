@@ -25,7 +25,7 @@ consumption = r'meter reading = ([0-9]*\.[0-9]+) kWh'
 4. Output: Display structured table ready for Excel export or dashboarding.
 
 | Account_no | Start_date | End_date | Cost_(£)| Consumption_kWh |
-| ---------- | ---------- | -------- | ------- | --------------- |
+| ---: | ---: | ---: | ---: | ---: |
 | 1234 1234 1234 | 2009-11-25 | 2010-03-03 | 92.62 | 748.0 |
 
 ### Key Code Features
