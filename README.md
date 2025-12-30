@@ -4,11 +4,9 @@ This repository contains Python code for automating the extraction of key billin
 ### Objectives
 The tool automates invoice data entry for handling bulk billing records, eliminating manual transcription errors. It targets structured bills with consistent layouts, extracting five core fields via regex patterns tailored to phrases like "customer reference number" and "Total to pay £X.XX".  
 
-Supports operations workflows for vendor payment validation or cost analytics in an efficient manner.  
-
+Supports operations workflows for vendor payment validation or cost analytics in an efficient manner.
 <img width="1092" height="969" alt="Screenshot 2025-12-30 at 09 55 51" src="https://github.com/user-attachments/assets/be956c17-51be-4738-b78f-323922328525" />
 <img width="1092" height="969" alt="Screenshot 2025-12-30 at 09 58 39" src="https://github.com/user-attachments/assets/ec75a74f-b34f-4b71-8ddc-25c2cc8bfb42" />
-
 ### Requirements
 - Python 3.8+ with libraries: ```pypdf```, ```numpy```, ```pandas```
 - Sample invoice: ```sample_bill.pdf```
